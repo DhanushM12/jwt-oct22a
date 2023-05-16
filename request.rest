@@ -1,1 +1,8 @@
-http://localhost:8080/
+GET http://localhost:8080/
+
+###
+POST http://localhost:8080/tokenGenerate
+
+###
+POST http://localhost:8080/verifyToken
+Authorization: Bearer token
